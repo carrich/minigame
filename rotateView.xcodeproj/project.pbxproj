@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		315534A4248414920016ADBE /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 315534A3248414920016ADBE /* wrong.mp3 */; };
 		315534A6248415350016ADBE /* ok1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 315534A5248415350016ADBE /* ok1.mp3 */; };
+		31AA90FC2485211A00BCD90A /* rol1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 31AA90FB2485211A00BCD90A /* rol1.mp3 */; };
 		31F71DAD248396D40054F3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F71DAC248396D40054F3E6 /* AppDelegate.swift */; };
 		31F71DAF248396D40054F3E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F71DAE248396D40054F3E6 /* SceneDelegate.swift */; };
 		31F71DB1248396D40054F3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F71DB0248396D40054F3E6 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		315534A3248414920016ADBE /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
 		315534A5248415350016ADBE /* ok1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok1.mp3; sourceTree = "<group>"; };
+		31AA90FB2485211A00BCD90A /* rol1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rol1.mp3; sourceTree = "<group>"; };
 		31F71DA9248396D40054F3E6 /* rotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F71DAC248396D40054F3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F71DAE248396D40054F3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		31F71DA0248396D40054F3E6 = {
 			isa = PBXGroup;
 			children = (
+				31AA90FB2485211A00BCD90A /* rol1.mp3 */,
 				315534A5248415350016ADBE /* ok1.mp3 */,
 				315534A3248414920016ADBE /* wrong.mp3 */,
 				31F71DAB248396D40054F3E6 /* rotateView */,
@@ -133,6 +136,7 @@
 			files = (
 				315534A4248414920016ADBE /* wrong.mp3 in Resources */,
 				31F71DB9248396D60054F3E6 /* LaunchScreen.storyboard in Resources */,
+				31AA90FC2485211A00BCD90A /* rol1.mp3 in Resources */,
 				31F71DB6248396D60054F3E6 /* Assets.xcassets in Resources */,
 				31F71DB4248396D40054F3E6 /* Main.storyboard in Resources */,
 				315534A6248415350016ADBE /* ok1.mp3 in Resources */,

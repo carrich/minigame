@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     }
     @objc  func animation(){
         number = CGFloat(Int.random(in: 1...24))
+        musicRol()
         UIView.animate(withDuration: 2, animations: {
             self.earth.transform = CGAffineTransform.identity
             self.earth.transform = CGAffineTransform(rotationAngle: -180 * CGFloat(M_PI / 180))
@@ -56,6 +57,20 @@ class ViewController: UIViewController {
         }
         
         
+    }
+    func musicRol(){
+        // setting up url for your soundtrack
+            let soundURL = Bundle.main.url(forResource: "rol1", withExtension: "mp3")
+            do {
+        // setting up audio player to play your sound
+                audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+            } catch  {
+        // in case any errors occur
+                print(error)
+            }
+
+        // playing your audio file
+            audioPlayer.play()
     }
     func musicOK(){
         // setting up url for your soundtrack
