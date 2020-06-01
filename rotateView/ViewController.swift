@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var earth: UIImageView!
     
     var audioPlayer: AVAudioPlayer!
-    var number: CGFloat = CGFloat(Int.random(in: 1...24))
+    var number: CGFloat!
     var sum = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         self.earth.transform = CGAffineTransform(rotationAngle: -7.5 * CGFloat(M_PI / 180))
     }
     @objc  func animation(){
-        
+        number = CGFloat(Int.random(in: 1...24))
         UIView.animate(withDuration: 2, animations: {
             self.earth.transform = CGAffineTransform.identity
             self.earth.transform = CGAffineTransform(rotationAngle: -180 * CGFloat(M_PI / 180))
